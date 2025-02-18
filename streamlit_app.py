@@ -6,9 +6,9 @@ import os
 
 # ✅ Charger les fichiers `.pkl`
 try:
-    model = joblib.load("xgboost_credit_risk.pkl")
-    ohe = joblib.load("onehot_encoder.pkl")
-    scaler = joblib.load("scaler.pkl")
+    model = joblib.load("models/xgboost_credit_risk.pkl")
+    ohe = joblib.load("models/onehot_encoder.pkl")
+    scaler = joblib.load("models/scaler.pkl")
 except FileNotFoundError as e:
     st.error(f"❌ Fichier manquant : {e}")
     st.stop()
