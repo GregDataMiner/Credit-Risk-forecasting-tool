@@ -118,3 +118,21 @@ if prediction[0] == 1:
     st.error("❌ Prêt refusé")
 else:
     st.success("✅ Prêt accordé !")
+    
+    
+    
+from streamlit_extras.let_it_rain import rain
+
+# 🎉 Résultat avec effet spécial si le prêt est accordé
+if prediction[0] == 1:
+    st.error("❌ Prêt refusé")
+else:
+    st.success("✅ Prêt accordé ! 🎉💸")
+
+    # 🌧️💵 Faire pleuvoir des billets
+    rain(
+        emoji="💵",
+        font_size=54,
+        falling_speed=5,
+        animation_length="infinite",
+    )
