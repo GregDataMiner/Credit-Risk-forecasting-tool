@@ -49,9 +49,9 @@ Credit-Risk-forecasting-tool/
 │── README.md                    # Présentation du projet
 ```
 
-le code qui m'a permi de traiter les données et comparer tous les modèles de ML est ici ![data](train_model/train_model.ipynb)
+le code qui m'a permi de traiter les données et comparer tous les modèles de ML est [ici](train_model/train_model.ipynb)
 
-les données sont disponibles ici ![data](data/credit_risk_dataset.csv)
+les données sont disponibles [ici](data/credit_risk_dataset.csv)
 
 
 ---
