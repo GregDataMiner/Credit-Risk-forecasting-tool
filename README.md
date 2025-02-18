@@ -1,9 +1,10 @@
 
 # 🚀 Credit Risk Forecasting Tool
 
-![Interface de l'application](images/image1.png)
+![Interface de l'application](Images/image3.png)
 
 ## 🌍 🔥 **Testez l'application en direct !** 🔥 🌍  
+
 🔗 **[CLIQUEZ ICI POUR ESSAYER L'APPLICATION](https://credit-risk-forecasting-tool-ogqsechcb4bggnkcieflat.streamlit.app/)**  
 
 ---
@@ -23,20 +24,27 @@ L’application utilise un modèle **XGBoost** entraîné sur un dataset de prê
 ## 🎯 Utilisation
 
 ### 1️⃣ Lancer l'application Streamlit
-Une interface s’ouvre dans le navigateur permettant de tester différents profils emprunteurs.
+#### Une interface s’ouvre dans le navigateur permettant de tester différents profils emprunteurs.
+#### L'application utilise le modèle le plus adapté parmi une quinzaine de modèle
+![Interface de l'application](Images/image1.png)
+#### Elle donne snsuite un avis sur le risque de défaut de l'emprunteur et accorde le prêt 💸 ou non ❌
+![Interface de l'application](Images/image2.png)
+#### Une partie qui affiche l'importance de chaque parametre permet à l'utilisateur de savoir sur quoi jouer pour faire basculer la décision en sa faveur 
 
 ## 🏗 Structure du projet
 ```bash
 Credit-Risk-forecasting-tool/
-│── data/                       # (Optionnel) Dossier contenant le dataset d'entraînement
+│── data/                       # Dossier contenant le dataset d'entraînement
 │── models/                     # Dossier contenant les fichiers modèles sauvegardés
 │   ├── xgboost_credit_risk.pkl  # Modèle XGBoost entraîné
 │   ├── onehot_encoder.pkl       # OneHotEncoder sauvegardé
 │   ├── scaler.pkl               # StandardScaler sauvegardé
 │── images/                      # Dossier contenant les images du projet
-│   ├── image1.png               # Capture d'écran de l'application
 │── streamlit_app.py             # Code de l'application Streamlit
-│── train_model.py               # Script pour entraîner le modèle
+│── train_model                  # Script pour entraîner le modèle
+│   ├── train_model.py           # format py
+│   ├── train_model.ipynb        # format jupyther notebook
+│── save_models.ipynb            # Script pour sauvegarder le meilleur modèle
 │── requirements.txt             # Dépendances nécessaires
 │── README.md                    # Présentation du projet
 ```
