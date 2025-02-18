@@ -78,7 +78,7 @@ les données sont disponibles [ici](data/credit_risk_dataset.csv)
 
 👤 **Auteur** : Grégoire
 📧 **Email** : sarsat.gregoire@gmail.com  
-🌍 **LinkedIn** : [mon profil Linkedin](https://www.linkedin.com/in/gregoire-sarsat/))  
+🌍 **LinkedIn** : [mon profil Linkedin](https://www.linkedin.com/in/gregoire-sarsat/)
 
 🌟 **Si tu trouves ce projet utile, n’hésite pas à laisser une ⭐ sur GitHub !** 🚀🎉
 
