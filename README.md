@@ -49,6 +49,11 @@ Credit-Risk-forecasting-tool/
 │── README.md                    # Présentation du projet
 ```
 
+le code qui m'a permi de traiter les données et comparer tous les modèles de ML est ici ![data](train_model/train_model.ipynb)
+
+les données sont disponibles ici ![data](data/credit_risk_dataset.csv)
+
+
 ---
 
 ## 🔬 Détails techniques
@@ -66,35 +71,8 @@ Credit-Risk-forecasting-tool/
 - **Normalisation** des variables numériques avec **StandardScaler**  
 - **Création de nouvelles features** (ratios de risque comme `loan_to_income_ratio`).  
 
----
+--- 
 
-## ✅ Améliorations futures
-🔹 Ajout d’une **API Flask/FastAPI** pour déployer le modèle en backend.  
-🔹 Optimisation des **hyperparamètres** avec GridSearchCV.  
-🔹 Ajout de **nouvelles variables explicatives** pour affiner la prédiction.  
-🔹 Déploiement sur **Streamlit Cloud** pour accès en ligne.  
-
----
-
-## 🤝 Contribuer
-
-Les contributions sont les bienvenues !  
-
-💡 Pour contribuer :  
-1. **Fork** le projet 🍴  
-2. Crée une branche (`git checkout -b feature-amélioration`)  
-3. Ajoute tes modifications  
-4. **Commit** (`git commit -m "Ajout d'une nouvelle feature"`)  
-5. **Push** (`git push origin feature-amélioration`)  
-6. Ouvre une **Pull Request** sur GitHub 🎉  
-
----
-
-## 📄 Licence
-Ce projet est sous licence **MIT**.  
-Tu es libre de l'utiliser, le modifier et le redistribuer avec attribution.
-
----
 
 ## 📞 Contact
 
