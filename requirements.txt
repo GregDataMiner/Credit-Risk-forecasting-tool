@@ -1,6 +1,11 @@
 streamlit
-pandas
 numpy
+pandas
 scikit-learn
 xgboost
 joblib
+seaborn
+matplotlib
+pdfkit
+wkhtmltopdf
+streamlit-extras
