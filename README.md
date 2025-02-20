@@ -1,6 +1,3 @@
-
-# 🚀 Credit Risk Forecasting Tool
-
 ![Interface de l'application](Images/image3.png)
 
 ## 🌍 🔥 **Testez l'application en direct !** 🔥 🌍  
