@@ -201,7 +201,7 @@ category_labels = {
 
 # Sidebar pour choisir les variables à afficher
 selected_categories = st.sidebar.multiselect(
-    "📊 Sélectionnez les catégories à afficher",
+    "📊 Connaitre l'importance des variables suivantes d'après les données réelles : ",
     options=set(category_labels.values()),  # Liste unique des catégories
     default=["💰 Ratios financiers", "📑 Type de prêt", "🏠 Type de propriété"]  # Catégories par défaut
 )
